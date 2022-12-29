@@ -10,6 +10,9 @@
     "lit": "latest",
     "@lit-labs/ssr": "latest"
   },
+  "overrides": {
+    "node-fetch": "npm:node-fetch-native@latest"
+  },
   "author": "Vladislav Ponomarev <Git@PonomareVlad.ru> (https://PonomareVlad.ru)",
   "license": "MIT"
 }
