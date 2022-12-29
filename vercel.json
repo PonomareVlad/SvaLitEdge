@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "(.*)",
+      "destination": "/api/index.mjs"
+    }
+  ],
+  "trailingSlash": false,
+  "github": {
+    "silent": true
+  }
+}
