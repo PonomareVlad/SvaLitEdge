@@ -1,2 +1,2 @@
-# Edge
-@SvaLit adapter for Edge environment
+# @SvaLit/Edge
+@Lit SSR adapter for Edge environment

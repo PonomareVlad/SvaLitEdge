@@ -1,21 +1,27 @@
 {
   "name": "@svalit/edge",
   "version": "0.0.1",
-  "description": "SvaLit adapter for Edge environment",
+  "description": "Lit SSR adapter for Edge worker",
   "type": "module",
-  "scripts": {
-    "demo": "vc dev --listen 80"
-  },
-  "dependencies": {
-    "lit": "latest",
-    "@lit-labs/ssr": "latest"
-  },
-  "overrides": {
-    "node-fetch": "npm:export-fetch@latest"
-  },
-  "resolutions": {
-    "node-fetch": "npm:export-fetch@latest"
-  },
+  "main": "index.mjs",
+  "license": "MIT",
+  "keywords": [
+    "lit",
+    "ssr",
+    "vercel",
+    "edge",
+    "worker"
+  ],
   "author": "Vladislav Ponomarev <Git@PonomareVlad.ru> (https://PonomareVlad.ru)",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PonomareVlad/SvaLitEdge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PonomareVlad/SvaLitEdge/issues"
+  },
+  "homepage": "https://github.com/PonomareVlad/SvaLitEdge#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
