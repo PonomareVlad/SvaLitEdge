@@ -1,7 +1,7 @@
 {
   "name": "@svalit/edge",
-  "version": "0.0.1",
-  "description": "Lit SSR adapter for Edge worker",
+  "version": "0.0.2",
+  "description": "Lit SSR helpers for Edge runtime",
   "type": "module",
   "main": "index.mjs",
   "license": "MIT",
